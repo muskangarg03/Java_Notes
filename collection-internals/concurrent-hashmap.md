@@ -106,7 +106,7 @@ transient volatile Node<K,V>[] table;  // volatile array reference
 
 ## Core Operations
 
-### 1. `put()` Example
+### 1. `put()` 
 
 Adds a key–value pair to the map.
 
@@ -133,7 +133,7 @@ public class PutExample {
 ```
 
 
-### 2. `get()` Example
+### 2. `get()` 
 
 Retrieves the value associated with a key.
 
@@ -162,7 +162,7 @@ public class GetExample {
 ```
 
 
-### 3. `remove()` Example
+### 3. `remove()` 
 
 Removes a key–value pair from the map.
 
@@ -343,7 +343,7 @@ map.forEach(1,
 
 ### Time Complexity
 
-![Performace_Comparision]()
+![Performace_Comparision](images/concurrent_map_comparison.png)
 
 ### Concurrency
 
@@ -474,7 +474,7 @@ if (map.isEmpty()) {
 ---
 
 
-![Best_Practices]()
+![Best_Practices](concurrent_map_practices.png)
 
 
 ---
