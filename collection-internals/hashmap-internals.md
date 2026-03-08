@@ -55,14 +55,14 @@ HashMap internally uses an **array of nodes** (buckets) to store entries.
 
 ```
 ┌─────────────────────────────────────┐
-│      HashMap Internal Array          │
+│      HashMap Internal Array         │
 ├─────────────────────────────────────┤
 │  Index 0: Node → Node → Node        │  (Linked List)
-│  Index 1: null                       │
-│  Index 2: Node → Node                │
-│  Index 3: null                       │
-│  Index 4: Node                       │
-│  ...                                 │
+│  Index 1: null                      │
+│  Index 2: Node → Node               │
+│  Index 3: null                      │
+│  Index 4: Node                      │
+│  ...                                │
 │  Index 15: Node → Node → Node → ... │
 └─────────────────────────────────────┘
 ```
@@ -466,7 +466,7 @@ while (it.hasNext()) {
 ## Performance Characteristics
 
 
-![HashMap_Performance_Comparison](hashMap_performance_comparison.png)
+![HashMap_Performance_Comparison](images/hashMap_performace_comparison.png)
 
 
 **Space Complexity:** `O(n)` where n is the number of entries.
@@ -522,7 +522,7 @@ int[] result = twoSum(nums, 9);  // [0, 1]
 ---
 
 
-![Best_Practices_HashMap](hashMap_practices.png)
+![Best_Practices_HashMap](images/hashMap_practices.png)
 
 
 ---
