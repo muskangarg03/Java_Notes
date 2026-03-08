@@ -474,7 +474,7 @@ if (map.isEmpty()) {
 ---
 
 
-![Best_Practices](concurrent_map_practices.png)
+![Best_Practices](images/concurrent_map_practices.png)
 
 
 ---
